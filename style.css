@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+/* v-3 */
+
+.LP{
+  margin: auto;
+  border: 1px solid black;
+  width:400px;
+  /* text-align: center; */
+  padding: 10px;
+}
+
+h1{
+  /* border: 1px solid black; */
+  margin: auto;
+  font-size: 24px;
+  padding-bottom: 4px;
+  border-bottom: rgb(215, 215, 215) solid 1px;
+  border-width: thin;
+  text-align: center;
+}
+.LPimg{
+  /* border: 1px solid black; */
+  display: block;
+  width: 50px;
+  border-radius: 50%;
+  margin: 8px auto;
+}
+.LPp{
+  /* border: 1px solid black; */
+  text-align: left;
+  margin-bottom: 16px;
+  margin-top: 0;
+  font-size: 15px;
+}
+h2{
+  background-color: rgb(229, 227, 227);
+  font-size: 16px;
+  border-radius: 8px;
+  text-align: left;
+  padding: 0 8px;
+  font-weight: 300;
+  margin: 8px 0;
+}
+
+table{
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 12px 0 10px 0;
+  width: 400px;
+  text-align: left;
+}
+
+
+th{
+  background: rgb(229, 227, 227);
+  border: 1px solid black;
+  text-align: center;
+  padding: 4px;
+}
+td{
+  border: 1px solid black;
+  padding: 4px 8px;
+}
+.LPa{
+  display: block;
+  text-decoration: none;
+  color: #429fcc;
+  border-radius: 8px;
+  border: 1px solid #429fcc;
+  border-width: medium;
+  height: 40px;
+  line-height: 40px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+}
+
+.card{
+  border: 1px solid black;
+  margin: 40px auto;
+  width: 260px;
+  padding: 10px;
+  position: relative;
+}
+.cardimg{
+  /* border: 1px solid black; */
+  display: block;
+  margin: auto;
+  width: 250px;
+  height: 180px;
+}
+h6{
+  /* border: 1px solid black; */
+  font-size: 14px;
+  margin: 6px auto 4px;
+  width: 250px;
+  text-align: left;
+}
+.cardp{
+  /* border: 1px solid black; */
+  margin: 4px auto 8px;
+  font-size: 12px;
+  text-align: left;
+  width: 250px;
+  line-height: 1.5;
+}
+
+.carda{
+  display: block;
+  /* border: 1px solid black; */
+  text-align: center;
+  width: 250px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  color: white;
+  background: orange;
+  font-weight: bold;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+.newitem{
+  background: rgb(168, 16, 16);
+  color: white;
+  border-radius: 4px;
+  width: 80px;
+  font-size: 16px;
+  height:40px ;
+  text-align: center;
+  line-height: 40px;
+  position: absolute;
+  top: -30px;
+  right: -20px;
+}
